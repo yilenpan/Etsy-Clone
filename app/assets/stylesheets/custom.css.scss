@@ -1,0 +1,73 @@
+@import 'bootstrap';
+
+body {
+	background-color: #EDEDED;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#heads{
+	background: url("http://dash.ga.co/assets/jeff-bg.png");
+	background-size:cover;
+	background-position: center;
+	float: none;
+	font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+    margin: 0 auto;
+	display: block;
+	padding:200px 0px 0px 0px;
+	p{
+		color:white;
+		font-size:76px;
+		padding:0px 0px 75px 0px;
+
+	}
+	ul {
+      padding: 10px;
+      text-align:center;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    a {
+      color:white;
+
+    }
+
+}
+
+.navbar-default{
+	background-color: #303030;
+	padding:5px;
+}
+
+.navbar-default .navbar-brand{
+	font-family: guardian-egyptt, georgia, serif;
+	font-weight:400;
+	color: #d5641c;
+	font-size:30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color: #7a7b7f;
+
+}
+
+.center{
+	text-align: center;
+
+}
+
+.col-md-3:nth-child(4n+1){
+	clear:left;
+}
+
+.col-md-6{
+	h3 {font-size:45px;}
+	h5 {font-size:25px}
+	p {font-size:18px;}
+
+}
