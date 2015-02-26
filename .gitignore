@@ -23,3 +23,6 @@
 
 #Ignore dev pictures
 /public/system/*
+
+#secret.yml
+/config/secrets.yml
