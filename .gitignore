@@ -22,4 +22,4 @@
 /config/application.yml
 
 #Ignore dev pictures
-/public/system/listings
+/public/system/
